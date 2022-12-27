@@ -61,6 +61,7 @@ export class App extends Component {
   };
 
   render() {
+    console.log(this.state);
     const filterContacts = this.filterArrContacts();
     return (
       <div className="app">
